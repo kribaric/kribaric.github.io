@@ -64,9 +64,9 @@ a:active {
 }
         
 .banner-area{
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)), url(../slike/intro.jpg);
     /*background-size:cover;*/
 }        
