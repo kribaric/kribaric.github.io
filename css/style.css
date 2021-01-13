@@ -64,10 +64,11 @@ a:active {
 }
         
 .banner-area{
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)), url(../slike/intro.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     /*background-size:cover;*/
 }        
         
