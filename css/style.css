@@ -224,10 +224,10 @@ input[type=submit]:hover {
 }
 
 .container {
-    margin: 120px;
     border-radius: 5px;
     background-color: #f2f2f2;
-    margin: 20px 120px;
+    margin-top:30px;
+    /*margin: 20px 120px;*/
 }
 
 /* footer */
