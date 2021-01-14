@@ -174,7 +174,7 @@ a:active {
     grid-row-end: 24;
 }
 
-/* porfelj */
+/* porfelj 
 
         .about_me {
             display: flex;
@@ -194,7 +194,7 @@ a:active {
             font-size: 24px;
             font-stretch: expanded;
 
-        }
+        } */
 
 
 /* kontakt */
@@ -228,6 +228,13 @@ input[type=submit]:hover {
     background-color: #f2f2f2;
     margin-top:30px;
     /*margin: 20px 120px;*/
+}
+
+.container_kontakt {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    margin-top:30px;
+    margin: 20px 120px;
 }
 
 /* footer */
