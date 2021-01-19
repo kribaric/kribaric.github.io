@@ -49,9 +49,15 @@ header  {
 
 .nav-item {
     color: #787878;
+    text-decoration: none;
 }
 
 .nav-link {
+    color: #787878;
+    text-decoration: none;
+}
+
+a:hover {
     color: #787878;
 }
 
@@ -265,6 +271,7 @@ footer {
   display: inline-block;
   line-height: 1;
   text-transform: none;
+  text-decoration: none;
   letter-spacing: normal;
   word-wrap: normal;
   white-space: nowrap;
@@ -285,5 +292,7 @@ footer {
 
 .a_icon {
     color: #fffbf7;
+    text-decoration: none;
 }
+
 
