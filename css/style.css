@@ -61,49 +61,6 @@ a:hover {
     color: #787878;
 }
 
-/*ul {
-    margin: 2px 25%;
-    padding: 15px;
-    color: #fffbf7;
-    text-decoration: none;
-}
-
-.li_nav {
-    display: inline;
-    margin: 15px auto;
-    padding: 15px;
-    text-align: center;
-    color: ##fffbf7;
-    text-decoration: none;
-}
-
-a {
-    text-align: center;
-    color: ##fffbf7;
-    text-decoration: none;
-}
-
-a:link {
-    color: #fffff7;
-}
-
-a:hover {
-    color: #fffff7;
-}
-
-a:visited {
-    color: #fffff7;
-}
-
-a:active {
-    color: #fffbf7;
-}
-
-.navbar-item {
-    color: #fffbf7;
-}
-        
-*/
 
 .content-area{
     height:100%;
@@ -244,7 +201,8 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: #f2f2f2;
     margin-top:30px;
-    margin: 20px 50px;
+    margin: 20px 40px;
+    padding: 10px;
 }
 
 /* footer */
