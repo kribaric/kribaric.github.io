@@ -43,6 +43,14 @@ header  {
     justify-content: center;
 }
 
+.nav-item {
+    color: #aeb0af;
+}
+
+.nav-link {
+    color: #aeb0af;
+}
+
 /*ul {
     margin: 2px 25%;
     padding: 15px;
