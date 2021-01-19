@@ -18,10 +18,24 @@ h1{
     font-weight: lighter;
 }
 
-/* izbornikm */
+/* header */
+
+header  {
+  background: url(../slike/g10.jpg); no-repeat center fixed;
+  background-size: cover;
+  background-position: center;
+
+}
+
+/* izbornik */
 
 .navbar-toggler-icon {
     border: none;
+    color: #fffbf7;
+}
+
+.navbar-toggler{
+    color: #fffbf7;
 }
 
 .nav {
@@ -29,7 +43,7 @@ h1{
     justify-content: center;
 }
 
-ul {
+/*ul {
     margin: 2px 25%;
     padding: 15px;
     color: #fffbf7;
@@ -71,16 +85,8 @@ a:active {
     color: #fffbf7;
 }
         
-.box_slika_1 {
-    width:100%;
-    height:100vh;
-    background-image: url(../slike/g1.jpg);
-    background-size:cover;
-    background-position: center;
-    opacity: 0.9;
-  }
+*/
 
-        
 .content-area{
     height:100%;
     display:flex;
@@ -105,7 +111,7 @@ a:active {
         
 /* main */
         
-.box_citat {
+.p_box_citat {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -184,28 +190,6 @@ a:active {
     grid-row-end: 24;
 }
 
-/* porfelj 
-
-        .about_me {
-            display: flex;
-            margin-bottom: 20px;
-        }
-
-        .moja_slika {
-            margin: 20px 120px;
-            margin-bottom: 20;
-
-        }
-
-        .about {
-            margin: 20px 120px;
-            margin-bottom: 20;
-            text-align: justify;
-            font-size: 24px;
-            font-stretch: expanded;
-
-        } */
-
 
 /* kontakt */
 
@@ -234,10 +218,8 @@ input[type=submit]:hover {
 }
 
 .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
     margin-top:30px;
-    /*margin: 20px 120px;*/
+
 }
 
 .container_kontakt {
