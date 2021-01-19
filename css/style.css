@@ -32,14 +32,27 @@ header  {
 }
 
 /* izbornik */
+.navbar {
+  background-color: transparent; /* Make the menu become transparent */
+  border-radius: 0px;
+  border: 0;
+  box-shadow: none;
+  padding: 10px;
+  color: #fffbf7;
+}
 
 .navbar-toggler-icon {
     border: none;
     color: #fffbf7;
+    background-color: #ffffff
+    background-color: transparent;
 }
 
 .navbar-toggler{
+    border: none;
     color: #fffbf7;
+    background-color: #ffffff
+    background-color: transparent;
 }
 
 .nav {
@@ -48,17 +61,17 @@ header  {
 }
 
 .nav-item {
-    color: #787878;
+    color: #fffbf7;
     text-decoration: none;
 }
 
 .nav-link {
-    color: #787878;
+    color: #fffbf7;
     text-decoration: none;
 }
 
 a:hover {
-    color: #787878;
+    color: #fffbf7;
 }
 
 
