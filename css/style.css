@@ -11,6 +11,8 @@ html {
 body {
     background:#eee;
     font-family: 'Montserrat', sans-serif;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 h1{
@@ -25,7 +27,7 @@ h1{
 /* header */
 
 header  {
-  background: url(../slike/g10.jpg); no-repeat center fixed;
+  background: url(../slike/header_bg.jpg); no-repeat center fixed;
   background-size: cover;
   background-position: center;
 
@@ -44,7 +46,8 @@ header  {
 
 .nav {
     display: flex;
-    justify-content: center;
+    background-color: transparent;
+
 }
 
 .nav-item {
@@ -252,5 +255,9 @@ footer {
     color: #fffbf7;
     text-decoration: none;
 }
+
+
+
+
 
 
