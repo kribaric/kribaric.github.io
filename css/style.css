@@ -103,7 +103,7 @@ a:hover {
 }
 
 .box_slika {
-    width:100%;
+
     height:100vh;
     background-image: url(../slike/cb_1.jpg);
     background-size: cover;
@@ -205,10 +205,11 @@ input[type=submit]:hover {
 .container_kontakt {
     border-radius: 5px;
     background-color: #f2f2f2;
-    margin-top:30px;
-    margin: 20px 40px;
     padding: 10px;
 }
+
+/* carousel */
+
 
 /* footer */
 
