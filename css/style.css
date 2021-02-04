@@ -28,7 +28,7 @@ h1{
 /* HEADEER */
 
 header{
-    background: url(../slike/header_bg.jpg); no-repeat center fixed;
+    background: url(../slike/header_bg.jpg) no-repeat center fixed;
     background-size: cover;
     background-position: center;
     height:100%;
@@ -71,9 +71,9 @@ header{
 }
 
 .navbar {
-    background-color: transparent;
-    opacity: 0.9
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.7945553221288515) 0%, rgba(255,255,255,0.68531162464986) 77%, rgba(255,255,255,1) 100%);
     text-align: center;
+    height: auto;
 }
 
 .nav-item {
@@ -104,6 +104,7 @@ a:hover {
     justify-content: center;
     align-items: center;
 }
+
 
 /*  GALERIJA */
 
@@ -142,24 +143,28 @@ a:hover {
     flex: 100%;
     max-width: 100%;
   }
+}
 
 
 /* ABOUT */
 
-.container {
+.container_about {
     margin: 50px 25px 30px 25px;
     padding: 20px;
     display:flex;
     align-items: center;
 }
 
+/* KONTAKT */
+
+form {
+
+}
 
 /* footer */
 
 footer {
-    display: block;
     background: #ebe8e6;
-    width: 100%;
 }
 
 .footer {
@@ -201,12 +206,5 @@ footer {
 .a_icon {
     color: #fffbf7;
     text-decoration: none;
-
 }
-
-
-
-
-
-
 
